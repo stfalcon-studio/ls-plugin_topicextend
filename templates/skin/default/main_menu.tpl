@@ -1,0 +1,1 @@
+<li><a href="{router page='topic'}add">{$aLang.topic_create_button}</a></li>

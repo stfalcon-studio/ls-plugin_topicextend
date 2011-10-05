@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>
+        <lang name="default">Topic extend</lang>
+    </name>
+    <author>
+        <lang name="default">Web-studio stfalcon.com</lang>
+    </author>
+    <homepage>http://stfalcon.com/</homepage>
+    <version>0.0.2</version>
+    <requires>
+        <livestreet>0.4.2</livestreet>
+        <plugins></plugins>
+    </requires>
+    <description>
+        <lang name="default">Extend topic: add some improvements to the topic module</lang>
+    </description>
+    <delegate>
+        <module></module>
+        <action></action>
+        <template></template>
+        <entity></entity>
+    </delegate>
+</plugin>
