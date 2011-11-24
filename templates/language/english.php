@@ -15,5 +15,5 @@
 return array(
     'topic_create_button' => 'Create topic',
     'autorize_to_enter' => 'You must log in to visit this page.',
-    'tag_result' => 'topic, topics',
+    'tag_result' => 'topic; topics',
 );
