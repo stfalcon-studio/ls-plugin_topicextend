@@ -42,7 +42,7 @@ class PluginTopicextend_ActionTag extends PluginTopicextend_Inherit_ActionTag
 
 
         require_once Config::Get('path.root.engine') . '/modules/viewer/plugs/modifier.declension.php';
-        require_once Plugin::GetPath(__CLASS__) . 'classes/modules/viewer/plugs/modifier.declension.php';
+        require_once Plugin::GetPath(__CLASS__) . 'engine/modules/viewer/plugs/modifier.declension.php';
         $plural = smarty_modifier_declension($aResult['count'], $this->Lang_Get('tag_result'), Config::Get('lang.current'));
 
         $sTaghtml = mb_strtoupper(mb_substr($sTag, 0, 1, 'UTF-8'), 'UTF-8') . mb_substr($sTag, 1, mb_strlen($sTag), 'UTF-8');
