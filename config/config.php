@@ -27,5 +27,5 @@ return $config = array(
     /**
      * Добавить кнопку добавления топика в основное меню
      */
-    'add_button_to_mainmenu' => false,
+    'add_button_to_mainmenu' => true,
 );
