@@ -46,7 +46,7 @@ class PluginTopicextend_ActionTag extends PluginTopicextend_Inherit_ActionTag
         $plural = smarty_modifier_declension($aResult['count'], $this->Lang_Get('tag_result'), Config::Get('lang.current'));
 
         $sTaghtml = mb_strtoupper(mb_substr($sTag, 0, 1, 'UTF-8'), 'UTF-8') . mb_substr($sTag, 1, mb_strlen($sTag), 'UTF-8');
-        $this->Viewer_AddHtmlTitle($sTaghtml . ': ' . $aResult['count'] . ' ' . $plural . ' ' . $this->Lang_Get('tag_title'));
+        $this->Viewer_AddHtmlTitle($sTaghtml . ': ' . $aResult['count'] . ' ' . $plural . ' / ' . $this->Lang_Get('tag_title'));
         $this->Viewer_SetHtmlRssAlternate(Router::GetPath('rss') . 'tag/' . $sTag . '/', $sTag);
         /**
          * Устанавливаем шаблон вывода
